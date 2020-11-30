@@ -1,0 +1,17 @@
+{
+  "kind": "collectionType",
+  "collectionName": "gameinfos",
+  "info": {
+    "name": "gameinfo"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "title": {
+      "type": "string"
+    }
+  }
+}

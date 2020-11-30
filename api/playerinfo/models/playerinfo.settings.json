@@ -1,0 +1,24 @@
+{
+  "kind": "collectionType",
+  "collectionName": "playerinfos",
+  "info": {
+    "name": "playerinfo",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "username": {
+      "type": "string"
+    },
+    "gameinfo": {
+      "model": "gameinfo"
+    },
+    "recentlogin": {
+      "type": "datetime"
+    }
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "collectionName": "components_state_savestates",
+  "info": {
+    "name": "savestate",
+    "icon": "address-book"
+  },
+  "options": {},
+  "attributes": {
+    "stars": {
+      "type": "biginteger"
+    },
+    "coins": {
+      "type": "biginteger"
+    }
+  }
+}

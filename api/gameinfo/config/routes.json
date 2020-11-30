@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/gameinfos",
+      "handler": "gameinfo.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/gameinfos/count",
+      "handler": "gameinfo.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/gameinfos/:id",
+      "handler": "gameinfo.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/gameinfos",
+      "handler": "gameinfo.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/gameinfos/:id",
+      "handler": "gameinfo.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/gameinfos/:id",
+      "handler": "gameinfo.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/playerinfos",
+      "handler": "playerinfo.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/playerinfos/count",
+      "handler": "playerinfo.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/playerinfos/:id",
+      "handler": "playerinfo.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/playerinfos",
+      "handler": "playerinfo.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/playerinfos/:id",
+      "handler": "playerinfo.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/playerinfos/:id",
+      "handler": "playerinfo.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}
